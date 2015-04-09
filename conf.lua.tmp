@@ -1,0 +1,6 @@
+return {
+  user   = "",
+  host   = "",
+  source = "",
+  dest   = "",
+}
