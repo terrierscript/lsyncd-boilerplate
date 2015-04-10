@@ -20,7 +20,7 @@ sync{
   delete = false,
   source = conf.source,
   target = target,
-  exclude = { ".DS_Store", ".sass-cache/**/*", "config/*.yml"},
+  exclude = { ".DS_Store", ".sass-cache/**/*" },
   rsync = {
     binary = "/usr/local/bin/rsync",
     archive = true,
